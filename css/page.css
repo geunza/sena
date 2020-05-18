@@ -977,11 +977,6 @@ body.detailPage.detail10CPRO section:first-of-type>div {
     padding-left: 55%;
 }
 
-body.detailPage.detail10CPRO section>img:first-child {
-    width: 30%;
-    margin-right: 10%;
-}
-
 body.detailPage.detail10CPRO section.capture+section {
     background-image: url(../sliceImage/10CPRO/ban_02.png);
     text-indent: -9999px;
@@ -1395,11 +1390,14 @@ body.detailPage.detailSMH10 section:first-of-type {
         padding: 25px 3%;
     }
 
-    .detailPage section iframe,
+    .detailPage section iframe,.detailPage section img {
+        margin:0 auto 20px; display:block;
+    }
+    .detailPage section iframe {
+        width:80%;
+    }
     .detailPage section img {
-        width: 80%;
-        margin: 0 auto 20px;
-        display: block;
+        width: 65%;
     }
 
     .detailPage section.standard,
@@ -1430,6 +1428,7 @@ body.detailPage.detailSMH10 section:first-of-type {
 
     .detailPage section .txt {
         width: 90%;
+        margin:auto;
     }
 
     .detailPage section h3 {

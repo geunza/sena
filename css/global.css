@@ -1,0 +1,289 @@
+.racing{
+    font-family: Racing Sans One;
+}
+.roboto{
+    font-family: Roboto;
+}
+.xoi{
+    font-family : Xoireqe;
+}
+.medium{
+    font-weight:500;
+}
+.regural{
+    font-weight:400;
+}
+.light{
+    font-weight:300;
+}
+a{
+    text-decoration: none;
+}
+input[id='burger']{
+    display: none;
+}
+html,body{
+    height:100%;
+}
+header{
+    margin: 0 auto;position: fixed;
+    width: 100%; z-index: 100;
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+header.headerUp{
+    background-color:rgba(255, 255, 255, 0.7);
+}
+header h1 a{
+    display: block;
+}
+header h1 a img{
+    width: 100%;
+}
+header label{
+    float: right;  text-indent: -9999px;
+    cursor: pointer;
+    background-image:url(../sliceImage/images/burger.png);
+    transition-duration: 0.3s;
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+header label.active{
+    background-image:url(../sliceImage/images/ico_burgerX.png);
+}
+body > nav:first-of-type{
+    display:none;
+    height: 100%; width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed; 
+    z-index: 10;
+    box-sizing:border-box;
+    background-repeat:no-repeat;
+    user-select: none;
+}
+body > nav:first-of-type ul{
+    width:70%;
+    float:right;
+    text-align:right;
+}
+/* All Using */
+
+@media screen and (max-width:767px){
+    header{
+        padding:15px 5% 0; 
+    }
+    header.headerUp{
+        padding:10px 5%;
+    }
+    header.headerUp h1{
+        padding-top:5px;
+    }
+    header h1{
+        max-width: 100px; float: left;
+    }
+    header label{
+        width: 25px; 
+        line-height: 25px;
+    }
+    body > nav:first-of-type{
+        padding:25% 20% 0 0;
+    }
+    body > nav:first-of-type ul > li{
+        margin-bottom:50px;
+    }
+    body > nav:first-of-type ul > li>*:not(a){
+        display:none;
+    }
+    body > nav:first-of-type ul > li > a{
+        color:#333;
+        font-size:30px;
+        display:block;
+    }
+    body > input[type="checkbox"]:checked+nav{
+        display:block;
+    }
+    /* header Fin.. */
+    footer{
+        width:100%;
+        padding:30px 0;
+        background-color:#1a1a1a;
+    }
+    footer>:not(div){
+        text-align:center;
+    }
+    footer h2{
+        margin:0 auto 25px;
+        width:25%;
+    }
+    footer h2 img{
+        width:100%;
+    }
+    footer p{
+        color:#e6e6e6;
+        font-size:14px;
+        margin-bottom:25px;
+    }
+    footer div{
+        margin:0 auto;
+        height:40px;
+        width:40%;
+    }
+    footer div a{
+        width:30%;height:40px; text-indent: -9999px;
+        display:block;
+        float:left;
+    }
+    footer div a:not(:last-child){
+        margin-right:5%;
+    }
+    footer div a:first-of-type{
+        background: url(../sliceImage/images/sns_facebook.png) no-repeat;
+        background-size:contain;
+    }
+    footer div a:nth-of-type(2){
+        background: url(../sliceImage/images/sns_youtube.png) no-repeat;
+        background-size:contain;
+    }
+    footer div a:last-of-type{
+        background: url(../sliceImage/images/sns_instagram.png) no-repeat;
+        background-size:contain;
+    }
+}
+@media screen and (max-width:767px) and (orientation:landscape){
+    body > nav:first-of-type{
+        padding:13% 20% 0 0;
+    }
+}   
+@media screen and (min-width:768px){
+    header{
+        padding:50px 5% 0; 
+    }
+    header h1{
+        max-width: 145px; float: left;
+    }
+    header label{
+        width: 30px; 
+        line-height: 30px;
+    }
+    body > nav:first-of-type{
+        padding:15% 10% 0 0;
+    }
+    body > nav:first-of-type ul > li > a{
+        color:#333;
+        font-size:30px;
+        display:block;
+        margin-bottom:25px;
+    }
+    body > nav:first-of-type ul li ol:after{
+        content:''; visibility: hidden; clear: both; display: block;
+    }
+    body > nav:first-of-type ul li ol li{
+        float:right;
+        line-height:40px;
+    }
+    footer{
+        height:300px; width:100%;
+        padding:60px 0; box-sizing: border-box;
+        background-color:#1a1a1a;
+    }
+    footer>:not(div){
+        text-align:center;
+    }
+    footer h2{
+        margin-bottom:40px;
+    }
+    footer p{
+        color:#e6e6e6;
+        font-size:16px;
+        margin-bottom:40px;
+    }
+    footer div{
+        margin:0 auto;
+        height:50px;
+        width:210px;
+    }
+    footer div a{
+        width:50px; height:50px; text-indent: -9999px;
+        display:block;
+        float:left;
+    }
+    footer div a:not(:last-child){
+        margin-right:30px;
+    }
+    footer div a:first-of-type{
+        background: url(../sliceImage/images/sns_facebook.png) no-repeat;
+        background-size:cover;
+    }
+    footer div a:nth-of-type(2){
+        background: url(../sliceImage/images/sns_youtube.png) no-repeat;
+        background-size:cover;
+    }
+    footer div a:last-of-type{
+        background: url(../sliceImage/images/sns_instagram.png) no-repeat;
+        background-size:cover;
+    }
+    body > nav:first-of-type ul > li{
+        margin-bottom:50px;
+    }
+    body > nav:first-of-type ul li ol li a{
+        color:#4d4d4d;
+        font-size:18px;
+        display:block;
+    }
+    body > input[type="checkbox"]:checked+nav{
+        display:block;
+    }
+    header div ul li>a{
+        color:#333;
+        font-size:30px;
+    }
+    header div ul li ol:after{
+        content:''; visibility: hidden; clear: both; display: block;
+    }
+    header div ul li ol li{
+        margin-top:40px;
+        float:right;
+        width:14%;
+    }
+    header div ul li ol li a{
+        font-size:18px;
+        display:block;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    header.headerUp{
+        padding:15px 5%;
+    }
+    body > nav:first-of-type ul{
+        max-width: 1000px;
+    }
+
+    body > nav:first-of-type ul li ol li{
+        width:30%;
+        min-width:160px;
+    }
+
+    /* header Fin.. */
+}
+@media screen and (min-width:768px) and (max-width:1023px) and (orientation:landscape){
+    body > nav:first-of-type ul > li>*:not(a){
+        display:none;
+    }
+}
+@media screen and (min-width:1024px){
+    header.headerUp{
+        padding:30px 5%;
+    }
+    header label:hover{
+        transform:rotate(90deg);
+    }
+    body > nav:first-of-type ul{
+        max-width: 1700px;
+    }
+    body > nav:first-of-type ul li ol li{
+        width:14%;
+        min-width:150px;
+    }
+    /* header Fin.. */
+}

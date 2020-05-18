@@ -148,7 +148,7 @@ section.about strong:last-of-type {
 }
 
 .mainPage section.collabo div {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
 }
 
@@ -1993,8 +1993,7 @@ body.detailPage.detailSMH10 section:first-of-type {
         width: 13%;
     }
 
-    .mainPage section.collabo ul li:not(:nth-of-type(7)),
-    .mainPage section.collabo ul li:not(:nth-of-type(14)) {
+    .mainPage section.collabo ul li:not(:nth-of-type(7n)){
         margin-right: 1%;
     }
 

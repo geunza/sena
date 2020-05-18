@@ -186,59 +186,59 @@ section.about strong:last-of-type {
 }
 
 .mainPage section.collabo ul li:first-of-type {
-    background-image: url(../images/COLLABORATIONS/AGV.png);
+    background-image: url(../sliceImage/collabo/collabo_AGV.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(2) {
-    background-image: url(../images/COLLABORATIONS/caberg.png);
+    background-image: url(../sliceImage/collabo/collabo_CABERG.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(3) {
-    background-image: url(../images/COLLABORATIONS/cycle_gear.png);
+    background-image: url(../sliceImage/collabo/collabo_CYCLE.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(4) {
-    background-image: url(../images/COLLABORATIONS/harley.png);
+    background-image: url(../sliceImage/collabo/collabo_HARLEY.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(5) {
-    background-image: url(../images/COLLABORATIONS/hjc.png);
+    background-image: url(../sliceImage/collabo/collabo_HJC.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(6) {
-    background-image: url(../images/COLLABORATIONS/icon.png);
+    background-image: url(../sliceImage/collabo/collabo_ICON.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(7) {
-    background-image: url(../images/COLLABORATIONS/klim.png);
+    background-image: url(../sliceImage/collabo/collabo_KLIM.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(8) {
-    background-image: url(../images/COLLABORATIONS/louis.png);
+    background-image: url(../sliceImage/collabo/collabo_LOUIS.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(9) {
-    background-image: url(../images/COLLABORATIONS/ls2.png);
+    background-image: url(../sliceImage/collabo/collabo_LS2.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(10) {
-    background-image: url(../images/COLLABORATIONS/nexx.png);
+    background-image: url(../sliceImage/collabo/collabo_NEXX.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(11) {
-    background-image: url(../images/COLLABORATIONS/nolan.png);
+    background-image: url(../sliceImage/collabo/collabo_NOLAN.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(12) {
-    background-image: url(../images/COLLABORATIONS/polaris.png);
+    background-image: url(../sliceImage/collabo/collabo_POLARIS.png);
 }
 
 .mainPage section.collabo ul li:nth-of-type(13) {
-    background-image: url(../images/COLLABORATIONS/schuberth.png);
+    background-image: url(../sliceImage/collabo/collabo_SCHUBERTH.png);
 }
 
 .mainPage section.collabo ul li:last-of-type {
-    background-image: url(../images/COLLABORATIONS/shoei.png);
+    background-image: url(../sliceImage/collabo/collabo_shoei.png);
 }
 
 /* section.collabo Fin.. */

@@ -20,7 +20,7 @@ function sliderBXMain(){
         auto : true,
         pause : 4000,
         touchEnabled:false,
-        // autoHover : true
+        autoHover : true
     });
 }
 function labelClass(){

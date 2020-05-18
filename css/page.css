@@ -14,7 +14,6 @@ section.slideArea .bx-wrapper .bx-viewport {
     margin: auto;
     border: none;
 }
-
 .bx-wrapper .bx-pager.bx-default-pager a.active {
     background-color: #fff;
 }
@@ -1779,7 +1778,6 @@ body.detailPage.detailSMH10 section:first-of-type {
     section.slideArea .bx-wrapper .bx-viewport .slider li{
         height: 500px !important;
     }
-
     section.slideArea ul li div.txt {
         padding: 15% 13% 0 0;
     }

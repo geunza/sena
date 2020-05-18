@@ -1106,13 +1106,10 @@ body.detailPage.detailSMH10 section:first-of-type {
 
     section.slideArea,
     section.slideArea .bx-wrapper,
-    section.slideArea .bx-wrapper .bx-viewport {
-        height: 300px;
-    }
-
+    section.slideArea .bx-wrapper .bx-viewport,    
     section.slideArea .bx-wrapper .bx-viewport .slider,
     section.slideArea .bx-wrapper .bx-viewport .slider li {
-        height: 300px;
+        height: 300px !important;
     }
 
     .bx-wrapper .bx-controls-direction a {
@@ -1777,13 +1774,10 @@ body.detailPage.detailSMH10 section:first-of-type {
 
     section.slideArea,
     section.slideArea .bx-wrapper,
-    section.slideArea .bx-wrapper .bx-viewport {
-        height: 500px;
-    }
-
+    section.slideArea .bx-wrapper .bx-viewport,
     section.slideArea .bx-wrapper .bx-viewport .slider,
-    section.slideArea .bx-wrapper .bx-viewport .slider li {
-        height: 500px;
+    section.slideArea .bx-wrapper .bx-viewport .slider li{
+        height: 500px !important;
     }
 
     section.slideArea ul li div.txt {
@@ -1946,13 +1940,10 @@ body.detailPage.detailSMH10 section:first-of-type {
 
     section.slideArea,
     section.slideArea .bx-wrapper,
-    section.slideArea .bx-wrapper .bx-viewport {
-        height: 800px;
-    }
-
+    section.slideArea .bx-wrapper .bx-viewport,
     section.slideArea .bx-wrapper .bx-viewport .slider,
     section.slideArea .bx-wrapper .bx-viewport .slider li {
-        height: 800px;
+        height: 800px !important;
     }
 
     section.slideArea ul li div.txt {

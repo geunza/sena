@@ -164,7 +164,9 @@ section.about strong:last-of-type {
     width: 100%;
 }
 
-.mainPage section.collabo ul:after {
+.mainPage section.collabo ul:after,
+body.collaboPage section.collabo ul.collaboSlider:after,
+.detailPage section.spec ul:after {
     content: '';
     clear: both;
     visibility: hidden;
@@ -293,12 +295,7 @@ body.collaboPage section.collabo button {
     color: #808080;
 }
 
-body.collaboPage section.collabo ul.collaboSlider:after {
-    content: '';
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
+
 
 body.collaboPage section.collabo ul.collaboSlider {
     transition-duration: 0.5s;
@@ -482,12 +479,7 @@ body.listPage section.list>div ul li a figure figcaption dd {
     width: 100%;
 }
 
-.detailPage section.spec ul:after {
-    content: '';
-    visibility: hidden;
-    display: block;
-    clear: both;
-}
+
 
 .detailPage section.spec ul {
     width: 100%;
@@ -1599,7 +1591,8 @@ body.detailPage.detailSMH10 section:first-of-type {
         min-width: 710px;
     }
 
-    body.listPage section.list nav ul:after {
+    body.listPage section.list nav ul:after,
+    .detailPage section:not(.banner):after{
         content: '';
         clear: both;
         visibility: hidden;
@@ -1709,12 +1702,6 @@ body.detailPage.detailSMH10 section:first-of-type {
         float: left;
     }
 
-    .detailPage section:not(.banner):after {
-        content: '';
-        display: block;
-        clear: both;
-        visibility: hidden;
-    }
 
     .detailPage section:not(.spec)>:first-child {
         margin-right: 5%;

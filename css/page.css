@@ -1025,7 +1025,7 @@ body.detailPage.detailSMH10 section:first-of-type {
         background-size: contain;
     }
     .bx-wrapper .bx-pager.bx-default-pager a {
-        width: 50px;
+        width: 25px;
         background: #b3ac8a;
         height: 2px;
         margin: 0 5px;
@@ -1050,7 +1050,7 @@ body.detailPage.detailSMH10 section:first-of-type {
     }
     
     .bx-wrapper .bx-pager {
-        bottom: 40px;
+        bottom: 20px;
     }
     section.slideArea ul li{
         background-color:rgba(0,0,0,0.7);
@@ -1076,7 +1076,7 @@ body.detailPage.detailSMH10 section:first-of-type {
     
     section.slideArea ul li div.txt h3 {
         color: #fff;
-        font-size: 48px;
+        font-size: 24px;
         margin-bottom: 25px;
     }
     
@@ -1242,7 +1242,11 @@ body.detailPage.detailSMH10 section:first-of-type {
     body.listPage section.list nav ul li span {
         padding-bottom: 5px;
     }
-    
+    body.listPage section.list nav ul li.active span:after{
+        content:'>';
+        transform:rotate(90deg) scaleY(1.5);
+        position: absolute; margin-left:10px;transition-duration:0.5s;
+    }
     body.listPage section.list nav ul li:not(.active) {
         height: 0;
         opacity: 0;
@@ -1262,10 +1266,9 @@ body.detailPage.detailSMH10 section:first-of-type {
         display: inline;
         position: relative;
     }
-    body.listPage section.list nav ul li.active span {
-        border-bottom: 2px solid #b32d26;
+    body.listPage section.list nav ul.spread li.active span:after{
+        transform:rotate(-90deg) scaleY(1.5)
     }
-
     body.listPage section.list>div {
         padding: 30px 0 50px;
     }
@@ -1286,7 +1289,6 @@ body.detailPage.detailSMH10 section:first-of-type {
         width: 95%;
         margin: 0 auto;
     }
-
     body.listPage section.list>div ul li {
         width: 80%;
         box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.35);
@@ -1756,7 +1758,7 @@ body.detailPage.detailSMH10 section:first-of-type {
     
     section.slideArea ul li div.txt h3 {
         color: #fff;
-        font-size: 48px;
+        font-size: 36px;
         margin-bottom: 25px;
     }
     
@@ -1781,8 +1783,8 @@ body.detailPage.detailSMH10 section:first-of-type {
     section.slideArea ul li div.txt p strong {
         display: block;
         color: #e6e6e6;
-        font-size: 24px;
-        margin-bottom: 50px;
+        font-size: 20px;
+        margin-bottom: 25px;
     }
     
     section.slideArea ul li div.txt p span {

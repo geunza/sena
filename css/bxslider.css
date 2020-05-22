@@ -4,9 +4,7 @@
 ===================================*/
 .bx-wrapper {
     position: relative;
-    margin-bottom: 60px;
     padding: 0;
-    *zoom: 1;
     -ms-touch-action: pan-y;
     touch-action: pan-y;
   }
@@ -28,10 +26,6 @@
   /** THEME
   ===================================*/
   .bx-wrapper {
-    /* -moz-box-shadow: 0 0 5px #ccc; */
-    /* -webkit-box-shadow: 0 0 5px #ccc; */
-    /* box-shadow: 0 0 5px #ccc; */
-    border: 5px solid #fff;
     background: #fff;
   }
   .bx-wrapper .bx-pager,
@@ -99,8 +93,6 @@
     top: 50%;
     margin-top: -16px;
     outline: 0;
-    width: 32px;
-    height: 32px;
     text-indent: -9999px;
     z-index: 10;
   }

@@ -32,9 +32,6 @@ body.mainPage {
     margin: 0 5px;
     border-radius: 0;
 }
-.bx-wrapper .bx-pager.bx-default-pager a.active{
-    background-color:#fff;
-}
 section.slideArea ul li img{
     width:100%;
 }
